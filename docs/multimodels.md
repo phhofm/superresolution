@@ -398,7 +398,7 @@ Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/sources/mu
 </p>
 </details>
 
-## Deprecated: Sets
+## Sets
 
 Older set-based approach. These examples had been created in imgsli before the existence of this website. Since created with imgsli, these examples are 'static', meaning they do not change. All created examples belonged to a Set, which is a specific list of upscaling models which all examples of that Set follow. They are ordered from newest (Set 5) to oldest (Set 1, my very first comparison I did, also featured in the youtube video at the top of this page). The progression can be seen from the first Set using 22 upscaling models (the universal ones) to 315 in Set 5.
 
