@@ -3,11 +3,19 @@ title: Changelog
 description: Updates List
 layout: doc
 ---
+
 # Changelog
 
 ### 12. Jan 2023
 
 - Update Multiple Models Page
+  - Add lossless examples
+  - Add fullscreen functionality to all examples
+  - Separation into lossless, lossy and Sets, side menu 'on this page' level adjust
+  - Update text
+  - Change set order newest to oldest
+- Changelog
+  - Change order newest to oldest
 
 ### 09. Jan 2023
 
@@ -24,14 +32,15 @@ layout: doc
 ### 17. Dec 2022
 
 - Images - Multimodels
-  - Replace photo and ai-generated example source files. 
+  - Replace photo and ai-generated example source files.
   - Fix file links (input and output source files) for these examples
 
 ### 16. Dec 2022
 
 - Images - Multimodels
-  - Replace anime example source files. 
-  
+
+  - Replace anime example source files.
+
   Based on feedback, I had overdone it with image compression (mozjpeg) (for page speed reasons) which led to artifacts appearing on all images. Reverted those back to the original jpg 100% output files I still have, additionally compressed with fileoptimizer. Will need to do the same for the other examples. I might redo all the upscales, but with a lossless image format output (either PNG (together with oxiPNG maybe or fileoptimizer again) or WEBP Lossless).
 
 ### 15. Dec 2022
@@ -50,7 +59,7 @@ layout: doc
 
 - Images - Update Multimodel Page with [Set 5](multimodels.md#set-5)
   - Add Set 5 Photo [Buddy example](multimodels.md#buddy-2)
-    - Add HAT versions, Real_HAT_GAN_SRx4 was just released a week ago on 24 Nov 2022  
+    - Add HAT versions, Real_HAT_GAN_SRx4 was just released a week ago on 24 Nov 2022
     - Add Swin2SR versions which released 27 Sept 2022
     - Add FeMaSE which released Oct 2022
     - Add LBNet which released Mai 2022
@@ -85,5 +94,5 @@ layout: doc
 - Images - Face Restoration Page
   - Remove duplicate examples
   - Add CodeFormer
-  - Add additional woman example  
+  - Add additional woman example
 - Add Changelog Page

@@ -251,6 +251,7 @@ Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/main/sourc
 </details>
 
 ### AI Generated
+
 <br>
 
 #### Livingroom
@@ -280,34 +281,51 @@ Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/main/sourc
 The output images beneath this point had been stored in the lossy jpg format (for faster example loads) and are, therefore, lossy. Everything above this point had been redone in lossless png. You can still use all the following examples. Since this is a visual comparison site, I just wanted to mark the compression happening after this point.
 
 ### Anime
+
 <br/>
 
 #### Sword Art Online 2
 
-<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/anime/SwordArtOnline2.jpg' relativePathOutputFolder='multimodel/current/anime/sao2' />
+<div id="sao2Example">
+<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/anime/SwordArtOnline2.jpg'  relativePathOutputFolder='multimodel/current/anime/sao2'/>
+</div>
+<button v-if="fullscreenEnabled" @click="enterFullscreen('sao2Example')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
+<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
 <br/>
 
-<details><summary>Example Details </summary>
+<details>
+  <summary>Details</summary>
+  <p>
 
-Name: Sword Art Online 2
-Input Image: 640x360 pixels (360p)  
- [Input Source File](https://github.com/Phhofm/upscale/tree/sources/input/anime/SwordArtOnline2.jpg)  
- [Output Source Files](https://github.com/Phhofm/upscale/tree/sources/multimodel/current/anime/sao2)
+Input Image: 640x360 pixels (360p)
 
+Input Image: [Image](https://github.com/Phhofm/upscale/tree/sources/input/anime/SwordArtOnline2.jpg)
+
+Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/sources/multimodel/current/anime/sao2)
+
+  </p>
 </details>
 
 #### That Time I Got Reincarnated As A Slime
 
-<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/anime/ThatTimeIGotReincarnatedAsASlime.jpg' relativePathOutputFolder='multimodel/current/anime/slime' />
+<div id="slimeExample">
+<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/anime/ThatTimeIGotReincarnatedAsASlime.jpg'  relativePathOutputFolder='multimodel/current/anime/slime'/>
+</div>
+<button v-if="fullscreenEnabled" @click="enterFullscreen('slimeExample')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
+<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
 <br/>
 
-<details><summary>Example Details </summary>
+<details>
+  <summary>Details</summary>
+  <p>
 
-Name: Slime
-Input Image: 640x360 pixels (360p)  
- [Input Source File](https://github.com/Phhofm/upscale/tree/sources/input/anime/ThatTimeIGotReincarnatedAsASlime.jpg)  
- [Output Source Files](https://github.com/Phhofm/upscale/tree/sources/multimodel/current/anime/slime)
+Input Image: 640x360 pixels (360p)
 
+Input Image: [Image](https://github.com/Phhofm/upscale/tree/sources/input/anime/ThatTimeIGotReincarnatedAsASlime.jpg)
+
+Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/sources/multimodel/current/anime/slime)
+
+</p>
 </details>
 
 ### AI Generated
@@ -316,66 +334,68 @@ Input Image: 640x360 pixels (360p)
 
 #### Child
 
-<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/ai_generated/child.jpg' relativePathOutputFolder='multimodel/current/ai_generated/child' />
+<div id="childExample">
+<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/ai_generated/child.jpg'  relativePathOutputFolder='multimodel/current/ai_generated/child'/>
+</div>
+<button v-if="fullscreenEnabled" @click="enterFullscreen('childExample')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
+<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
 <br/>
 
-<details><summary>Example Details </summary>
+<details>
+  <summary>Details</summary>
+  <p>
 
-Name: Child
-Input Image: 320x320 pixels  
- Scaling Factor: 4  
- Output Image: 1280x1280 pixels  
- [Input Source File](https://github.com/Phhofm/upscale/tree/sources/input/ai_generated/child.jpg)  
- [Output Source Files](https://github.com/Phhofm/upscale/tree/sources/multimodel/current/ai_generated/child)
+Input Image: 320x320 pixels
 
+Input Image: [Image](https://github.com/Phhofm/upscale/tree/sources/input/ai_generated/child.jpg)
+
+Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/sources/multimodel/current/ai_generated/child)
+
+</p>
 </details>
 
 #### Landscape
 
-<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/ai_generated/landscape.jpg' relativePathOutputFolder='multimodel/current/ai_generated/landscape' />
+<div id="landscapeExample">
+<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/ai_generated/landscape.jpg'  relativePathOutputFolder='multimodel/current/ai_generated/landscape'/>
+</div>
+<button v-if="fullscreenEnabled" @click="enterFullscreen('landscapeExample')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
+<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
 <br/>
 
-<details><summary>Example Details </summary>
+<details>
+  <summary>Details</summary>
+  <p>
 
-Name: Landscape
-Input Image: 320x320 pixels  
- Scaling Factor: 4  
- Output Image: 1280x1280 pixels  
- [Input Source File](https://github.com/Phhofm/upscale/tree/sources/input/ai_generated/landscape.jpg)  
- [Output Source Files](https://github.com/Phhofm/upscale/tree/sources/multimodel/current/ai_generated/landscape)
+Input Image: 320x320 pixels
 
+Input Image: [Image](https://github.com/Phhofm/upscale/tree/sources/input/ai_generated/landscape.jpg)
+
+Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/sources/multimodel/current/ai_generated/landscape)
+
+</p>
 </details>
 
 #### Lightning
 
-<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/ai_generated/lightning.jpg' relativePathOutputFolder='multimodel/current/ai_generated/lightning' />
+<div id="lightningExample">
+<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/ai_generated/lightning.jpg'  relativePathOutputFolder='multimodel/current/ai_generated/lightning'/>
+</div>
+<button v-if="fullscreenEnabled" @click="enterFullscreen('lightningExample')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
+<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
 <br/>
 
-<details><summary>Example Details </summary>
+<details>
+  <summary>Details</summary>
+  <p>
 
-Name: Lightning
-Input Image: 320x320 pixels  
- Scaling Factor: 4  
- Output Image: 1280x1280 pixels  
- [Input Source File](https://github.com/Phhofm/upscale/tree/sources/input/ai_generated/lightning.jpg)  
- [Output Source Files](https://github.com/Phhofm/upscale/tree/sources/multimodel/current/ai_generated/lightning)
+Input Image: 320x320 pixels
 
-</details>
+Input Image: [Image](https://github.com/Phhofm/upscale/tree/sources/input/ai_generated/lightning.jpg)
 
-#### Livingroom
+Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/sources/multimodel/current/ai_generated/lightning)
 
-<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/ai_generated/livingroom.jpg' relativePathOutputFolder='multimodel/current/ai_generated/livingroom' />
-<br/>
-
-<details><summary>Example Details </summary>
-
-Name: Livingroom
-Input Image: 320x320 pixels  
- Scaling Factor: 4  
- Output Image: 1280x1280 pixels  
- [Input Source File](https://github.com/Phhofm/upscale/tree/sources/input/ai_generated/livingroom.jpg)  
- [Output Source Files](https://github.com/Phhofm/upscale/tree/sources/multimodel/current/ai_generated/livingroom)
-
+</p>
 </details>
 
 ## Deprecated: Sets
@@ -385,18 +405,20 @@ Older set-based approach. These examples had been created in imgsli before the e
 For the examples above this point I used a vue component where I had added selectors which inputs are from a json file (since static page) which is created in the build step, which gets triggered with each commit on the main branch thorugh github actions. This means they are 'dynamic'. Instead of drag and dropping hundreds of images through the imgsli web interface to create a new examples, the images above are simply build from the github folder, and update themselves automatically if I add or remove an image file, which makes it simpler for me to add new models.
 
 ### Set 5
-Creation Date Of Upscale Set: 01. Dec 2022  
+
+Creation Date Of Upscale Set: 01. Dec 2022
 
 Added some new models like  
 Real_HAT_GAN_SRx4 as released on the 24. Nov 2022 (last week as of me creating this entry)  
 Swin2SR models released one month ago at the end of oct 2022  
 FeMaSR which had been released in the second half of 2022.  
 I try to list updates I make on the [changelog page](changelog.md)  
-Added a voting feature where the community could vote on the best results for each example. My idea at that time had been to create a community page and feature the top 5 voted for models there.  
+Added a voting feature where the community could vote on the best results for each example. My idea at that time had been to create a community page and feature the top 5 voted for models there.
 
 <br/>
 
 #### Buddy
+
 <div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
   <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTM3MDAy/0/1" style="width: 100%; border: 0px none; height: 56vmin; min-height: 300px; margin-top: -75px; margin-bottom:-30px;">
   </iframe>
@@ -413,7 +435,7 @@ Creation Date: 01. Dec 2022
  Output Image: 1920x1280 pixels  
  Models used: 315  
  Input Source File: [Link](https://github.com/Phhofm/upscale/public/sources/input/photos)  
- Output Source Files: [Link](https://github.com/Phhofm/upscale/public/sources/multimodel/current/photos)  
+ Output Source Files: [Link](https://github.com/Phhofm/upscale/public/sources/multimodel/current/photos)
 
   <details>
     <summary>Models List</summary>
@@ -737,7 +759,8 @@ Creation Date: 01. Dec 2022
   </details>
 
 ##### Voting
-"4x BSRGAN" and "4x BSRGAN_old_arch" -> "BSRGAN"  
+
+"4x BSRGAN" and "4x BSRGAN_old_arch" -> "BSRGAN"
 
 <div class="strawpoll-embed" id="strawpoll_QrgeVNGxOZp" style="height: 600px; width: 100%; margin: 0 auto; display: flex; flex-direction: column;">
 <iframe title="StrawPoll Embed" id="strawpoll_iframe_QrgeVNGxOZp" src="https://strawpoll.com/embed/polls/QrgeVNGxOZp" style="position: static; visibility: visible; display: block; width: 100%; flex-grow: 1;" frameborder="0" allowfullscreen allowtransparency>Loading...</iframe>
@@ -748,6 +771,7 @@ Creation Date: 01. Dec 2022
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfwm-x0ZBB3fgcHzYUouXGkaA5EGndIFgpZCfF90oyN8VtXKg/viewform?embedded=true" width="640" height="474" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
 
 #### Grosser Mythen
+
 <div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
   <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTM3MDgy/0/1" style="width: 100%; border: 0px none; height: 62vmin; min-height: 300px; margin-top: -75px; margin-bottom:-30px;">
   </iframe>
@@ -758,7 +782,7 @@ Creation Date: 01. Dec 2022
 ##### Example Details
 
 Name: Grosser Mythen  
-Creation Date: 01. Dec 2022   
+Creation Date: 01. Dec 2022  
  Input Image: 427x320 pixels  
  Scaling Factor: 4  
  Output Image: 1708x1280 pixels  
@@ -767,6 +791,7 @@ Creation Date: 01. Dec 2022
  (Output Source Files are mozjpg compressed
 
 ##### Voting
+
 <div class="strawpoll-embed" id="strawpoll_PKglzr9zEyp" style="height: 600px; width: 100%; margin: 0 auto; display: flex; flex-direction: column;">
 <iframe title="StrawPoll Embed" id="strawpoll_iframe_PKglzr9zEyp" src="https://strawpoll.com/embed/polls/PKglzr9zEyp" style="position: static; visibility: visible; display: block; width: 100%; flex-grow: 1;" frameborder="0" allowfullscreen allowtransparency>Loading...</iframe>
 <!-- <script async src="https://cdn.strawpoll.com/dist/widgets.js" charset="utf-8"></script> -->
@@ -774,6 +799,7 @@ Creation Date: 01. Dec 2022
 <br/>
 
 #### Painting
+
 <div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
   <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTM3MTI2/0/1" style="width: 100%; border: 0px none; height: 62vmin; min-height: 300px; margin-top: -75px; margin-bottom:-30px;">
   </iframe>
@@ -793,6 +819,7 @@ Creation Date: 01. Dec 2022
  (Output Source Files are mozjpg compressed
 
 ##### Voting
+
 <div class="strawpoll-embed" id="strawpoll_QrgeVNMkbZp" style="height: 600px; width: 100%; margin: 0 auto; display: flex; flex-direction: column;">
 <iframe title="StrawPoll Embed" id="strawpoll_iframe_QrgeVNMkbZp" src="https://strawpoll.com/embed/polls/QrgeVNMkbZp" style="position: static; visibility: visible; display: block; width: 100%; flex-grow: 1;" frameborder="0" allowfullscreen allowtransparency>Loading...</iframe>
 <!-- <script async src="https://cdn.strawpoll.com/dist/widgets.js" charset="utf-8"></script> -->
@@ -820,6 +847,7 @@ Creation Date: 01. Dec 2022
  (Output Source Files are mozjpg compressed
 
 ##### Voting
+
 <div class="strawpoll-embed" id="strawpoll_eJnv7bdNEgv" style="height: 600px; width: 100%; margin: 0 auto; display: flex; flex-direction: column;">
 <iframe title="StrawPoll Embed" id="strawpoll_iframe_eJnv7bdNEgv" src="https://strawpoll.com/embed/polls/eJnv7bdNEgv" style="position: static; visibility: visible; display: block; width: 100%; flex-grow: 1;" frameborder="0" allowfullscreen allowtransparency>Loading...</iframe>
 <!-- <script async src="https://cdn.strawpoll.com/dist/widgets.js" charset="utf-8"></script> -->
