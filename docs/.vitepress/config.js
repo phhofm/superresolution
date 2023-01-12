@@ -11,6 +11,10 @@ export default {
                         link: '/introduction'
                     },
                     {
+                        text: 'Favorites',
+                        link: '/favorites'
+                    },
+                    {
                         text: 'Multiple Models',
                         link: '/multimodels'
                     },
@@ -18,26 +22,70 @@ export default {
                         text: '',
                         items: [
                             {
-                                text: 'Photo',
-                                link: '/multimodels#photo'
+                                text: 'Examples',
+                                link: '/multimodels.html#examples'
                             },
                             {
-                                text: 'AI Generated',
-                                link: '/multimodels#ai-generated-images'
+                                text: '',
+                                items: [
+                                    {
+                                        text: 'Photo',
+                                        link: '/multimodels.html#photo'
+                                    },
+                                    {
+                                        text: 'Anime',
+                                        link: '/multimodels.html#anime'
+                                    },
+                                    {
+                                        text: 'AI Generated',
+                                        link: '/multimodels.html#ai-generated'
+                                    },
+                                ]
                             },
                             {
-                                text: 'Anime',
-                                link: '/multimodels#anime'
+                                text: 'Lossy',
+                                link: '/multimodels.html#lossy'
+                            },
+                            {
+                                text: '',
+                                items: [
+                                    {
+                                        text: 'Anime',
+                                        link: '/multimodels.html#anime-1'
+                                    },
+                                    {
+                                        text: 'AI Generated',
+                                        link: '/multimodels.html#ai-generated-1'
+                                    },
+                                ]
                             },
                             {
                                 text: 'Sets',
-                                link: '/multimodels#sets'
+                                link: '/multimodels.html#sets'
+                            },
+                            {
+                                text: '',
+                                items: [
+                                    {
+                                        text: 'Set 5',
+                                        link: '/multimodels.html#set-5'
+                                    },
+                                    {
+                                        text: 'Set 4',
+                                        link: '/multimodels.html#set-4'
+                                    },                                    {
+                                        text: 'Set 3',
+                                        link: '/multimodels.html#set-3'
+                                    },                                    {
+                                        text: 'Set 2',
+                                        link: '/multimodels.html#set-2'
+                                    },                                    {
+                                        text: 'Set 1',
+                                        link: '/multimodels.html#set-1'
+                                    },
+                                ]
                             },
                         ]
-                    },
-                    {
-                        text: 'Favorites',
-                        link: '/favorites'
                     },
                     {
                         text: 'Face Restoration',
@@ -74,6 +122,10 @@ export default {
                         link: '/introduction'
                     },
                     {
+                        text: 'Favorites',
+                        link: '/favorites'
+                    },
+                    {
                         text: 'Multiple Models',
                         link: '/multimodels'
                     },
@@ -81,26 +133,70 @@ export default {
                         text: '',
                         items: [
                             {
-                                text: 'Photo',
-                                link: '/multimodels#photo'
+                                text: 'Examples',
+                                link: '/multimodels.html#examples'
                             },
                             {
-                                text: 'AI Generated',
-                                link: '/multimodels#ai-generated-images'
+                                text: '',
+                                items: [
+                                    {
+                                        text: 'Photo',
+                                        link: '/multimodels.html#photo'
+                                    },
+                                    {
+                                        text: 'Anime',
+                                        link: '/multimodels.html#anime'
+                                    },
+                                    {
+                                        text: 'AI Generated',
+                                        link: '/multimodels.html#ai-generated'
+                                    },
+                                ]
                             },
                             {
-                                text: 'Anime',
-                                link: '/multimodels#anime'
+                                text: 'Lossy',
+                                link: '/multimodels.html#lossy'
+                            },
+                            {
+                                text: '',
+                                items: [
+                                    {
+                                        text: 'Anime',
+                                        link: '/multimodels.html#anime-1'
+                                    },
+                                    {
+                                        text: 'AI Generated',
+                                        link: '/multimodels.html#ai-generated-1'
+                                    },
+                                ]
                             },
                             {
                                 text: 'Sets',
-                                link: '/multimodels#sets'
+                                link: '/multimodels.html#sets'
+                            },
+                            {
+                                text: '',
+                                items: [
+                                    {
+                                        text: 'Set 5',
+                                        link: '/multimodels.html#set-5'
+                                    },
+                                    {
+                                        text: 'Set 4',
+                                        link: '/multimodels.html#set-4'
+                                    },                                    {
+                                        text: 'Set 3',
+                                        link: '/multimodels.html#set-3'
+                                    },                                    {
+                                        text: 'Set 2',
+                                        link: '/multimodels.html#set-2'
+                                    },                                    {
+                                        text: 'Set 1',
+                                        link: '/multimodels.html#set-1'
+                                    },
+                                ]
                             },
                         ]
-                    },
-                    {
-                        text: 'Favorites',
-                        link: '/favorites'
                     },
                     {
                         text: 'Face Restoration',
