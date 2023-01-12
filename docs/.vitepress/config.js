@@ -2,6 +2,7 @@ export default {
     title: 'Interactive Visual Comparison of Upscaling Models',
     description: 'Here you can compare the results of different upscaling models for yourself.',
     base: '/upscale/',
+    lastUpdated: false,
     themeConfig: {
         nav: [{
                 text: 'Image',

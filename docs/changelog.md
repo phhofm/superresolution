@@ -3,49 +3,45 @@ title: Changelog
 description: Updates List
 layout: doc
 ---
+
 # Changelog
 
-### 17. Nov 2022
+### 12. Jan 2023
 
-- Images - Face Restoration Page
-  - Remove duplicate examples
-  - Add CodeFormer
-  - Add additional woman example  
-- Add Changelog Page
+- Update Multiple Models Page
+  - Add lossless examples
+  - Add fullscreen functionality to all examples
+  - Separation into lossless, lossy and Sets, side menu 'on this page' level adjust
+  - Update text
+  - Change set order newest to oldest
+- Changelog
+  - Change order newest to oldest
 
-### 20. Nov 2022
+### 09. Jan 2023
 
-- Images - Add Denoise Page
-  - Add Directions example
-  - Add Stefantiek example
+- Images - Favorites page update
+  - Lossless examples with models selection, with fullscreen and reset button
+  - Add simple reccommendation per example for an upscaling model to use
 
-### 24. Nov 2022
+### 19. Dec 2022
 
-- Images - Add Deblurring Page
-  - Add three GoPro examples
-- Add Image Files Links for Deblurring, Denoise, Face Restoration and Favorites Page in details
+- Externalize image source files, not bundled into app anymore but load directly from github folders through github links (reduce bundle size because of github pages artifacts size limit (deploy abort because of timeout error) and also bundle/deploy times (shot up from ~8 min to >30min when bundling image sources) reduction). Also important if more files are added in the future. For the externalized sources folder the image sources files have been re-imported from commit 70420bd136c31e26c6bba8cf19e8d630848dc67e to make sure the image files are from before I had bundled and overdone it with compression (so to get the output files I got when running chaiNNer with JPG 100% output, still lossy though since jpg format) - added anime examples from later states again
+  - Adapt component, load files from github links (raw.githubusercontent.com)
+  - Adapt source links for examples (externalized source folder)
 
-### 25. Nov 2022
+### 17. Dec 2022
 
-- Images - Update Deblurring Page
-  - Add DeblurGANv2_MobileNet
-  - Add DeblurGANv2_InceptionResNet-v2
+- Images - Multimodels
+  - Replace photo and ai-generated example source files.
+  - Fix file links (input and output source files) for these examples
 
-### 01. Dec 2022
+### 16. Dec 2022
 
-- Images - Update Multimodel Page with [Set 5](multimodels.md#set-5)
-  - Add Set 5 Photo [Buddy example](multimodels.md#buddy-2)
-    - Add HAT versions, Real_HAT_GAN_SRx4 was just released a week ago on 24 Nov 2022  
-    - Add Swin2SR versions which released 27 Sept 2022
-    - Add FeMaSE which released Oct 2022
-    - Add LBNet which released Mai 2022
-    - Add Poll (Voting for best results)
-    - P.S. just as info "ruDALL-E-SR" is the re-trained version of Real-ESRGAN with custom dataset by Igor Pavlov which is used by ruDALL-E [Repo1](https://github.com/chenxwh/rudalle-sr) [Repo2](https://github.com/ai-forever/Real-ESRGAN) [Model](https://drive.google.com/drive/folders/16PlVKhTNkSyWFx52RPb2hXPIQveNGbxS)
-  - Add Community Top 5 page template
-  - Add Set 5 Photo [Grosser Mythen example](multimodels.md#grosser-mythen)
-  - Add Set 5 Photo [Painting example](multimodels.md#painting-1)
-  - Add Set 5 Photo [PC Build example](multimodels.md#pc-build-1)
-  - Add Set 5 Photo [Snowboard example](multimodels.md#snowboard)
+- Images - Multimodels
+
+  - Replace anime example source files.
+
+  Based on feedback, I had overdone it with image compression (mozjpeg) (for page speed reasons) which led to artifacts appearing on all images. Reverted those back to the original jpg 100% output files I still have, additionally compressed with fileoptimizer. Will need to do the same for the other examples. I might redo all the upscales, but with a lossless image format output (either PNG (together with oxiPNG maybe or fileoptimizer again) or WEBP Lossless).
 
 ### 15. Dec 2022
 
@@ -59,27 +55,44 @@ layout: doc
 - Images - update all examples from imgsli to new local vue component
 - Images - Bundle all image sources files inside the app
 
-### 16. Dec 2022
+### 01. Dec 2022
 
-- Images - Multimodels
-  - Replace anime example source files. 
-  
-  Based on feedback, I had overdone it with image compression (mozjpeg) (for page speed reasons) which led to artifacts appearing on all images. Reverted those back to the original jpg 100% output files I still have, additionally compressed with fileoptimizer. Will need to do the same for the other examples. I might redo all the upscales, but with a lossless image format output (either PNG (together with oxiPNG maybe or fileoptimizer again) or WEBP Lossless).
+- Images - Update Multimodel Page with [Set 5](multimodels.md#set-5)
+  - Add Set 5 Photo [Buddy example](multimodels.md#buddy-2)
+    - Add HAT versions, Real_HAT_GAN_SRx4 was just released a week ago on 24 Nov 2022
+    - Add Swin2SR versions which released 27 Sept 2022
+    - Add FeMaSE which released Oct 2022
+    - Add LBNet which released Mai 2022
+    - Add Poll (Voting for best results)
+    - P.S. just as info "ruDALL-E-SR" is the re-trained version of Real-ESRGAN with custom dataset by Igor Pavlov which is used by ruDALL-E [Repo1](https://github.com/chenxwh/rudalle-sr) [Repo2](https://github.com/ai-forever/Real-ESRGAN) [Model](https://drive.google.com/drive/folders/16PlVKhTNkSyWFx52RPb2hXPIQveNGbxS)
+  - Add Community Top 5 page template
+  - Add Set 5 Photo [Grosser Mythen example](multimodels.md#grosser-mythen)
+  - Add Set 5 Photo [Painting example](multimodels.md#painting-1)
+  - Add Set 5 Photo [PC Build example](multimodels.md#pc-build-1)
+  - Add Set 5 Photo [Snowboard example](multimodels.md#snowboard)
 
-### 17. Dec 2022
+### 25. Nov 2022
 
-- Images - Multimodels
-  - Replace photo and ai-generated example source files. 
-  - Fix file links (input and output source files) for these examples
+- Images - Update Deblurring Page
+  - Add DeblurGANv2_MobileNet
+  - Add DeblurGANv2_InceptionResNet-v2
 
-### 19. Dec 2022
+### 24. Nov 2022
 
-- Externalize image source files, not bundled into app anymore but load directly from github folders through github links (reduce bundle size because of github pages artifacts size limit (deploy abort because of timeout error) and also bundle/deploy times (shot up from ~8 min to >30min when bundling image sources) reduction). Also important if more files are added in the future. For the externalized sources folder the image sources files have been re-imported from commit 70420bd136c31e26c6bba8cf19e8d630848dc67e to make sure the image files are from before I had bundled and overdone it with compression (so to get the output files I got when running chaiNNer with JPG 100% output, still lossy though since jpg format) - added anime examples from later states again
-  - Adapt component, load files from github links (raw.githubusercontent.com)
-  - Adapt source links for examples (externalized source folder)
+- Images - Add Deblurring Page
+  - Add three GoPro examples
+- Add Image Files Links for Deblurring, Denoise, Face Restoration and Favorites Page in details
 
-### 09. Jan 2023
+### 20. Nov 2022
 
-- Images - Favorites page update
-  - Lossless examples with models selection, with fullscreen and reset button
-  - Add simple reccommendation per example for an upscaling model to use
+- Images - Add Denoise Page
+  - Add Directions example
+  - Add Stefantiek example
+
+### 17. Nov 2022
+
+- Images - Face Restoration Page
+  - Remove duplicate examples
+  - Add CodeFormer
+  - Add additional woman example
+- Add Changelog Page
