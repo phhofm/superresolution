@@ -88,6 +88,11 @@ Info:
 
 ## Art/Pixel Art
 
+https://www.freepik.com/free-vector/pixel-art-vacation-background_29019073.htm
+https://www.freepik.com/free-vector/christmas-pixel-art-illustration_33111825.htm
+https://img.craftpix.net/2018/12/Free-Pixel-Art-Street-2D-Backgrounds2-720x480.jpg from here https://craftpix.net/freebies/free-pixel-art-street-2d-backgrounds/?num=2&count=548&sq=pixel%20art&pos=2
+https://craftpix.net/freebies/free-mountain-backgrounds-pixel-art/
+
 ## Drawn Material
 
 ### Anime
@@ -114,7 +119,13 @@ The outputs named like '50k [epoch 253, psnr 30.316, ssim 0.8508, lpips 0.052897
 
 ### Manga
 
+<!-- https://www.freepik.com/free-vector/four-girls-monochrome-anime_24631612.htm#from_view=detail_alsolike -->
+<!-- https://www.freepik.com/free-vector/four-girls-anime-style_24631624.htm#query=manga&position=14&from_view=keyword -->
+<!-- https://en.dragon-ball-official.com/dragonball/en/news/FIGURE/2021/09/%E8%A1%97%E4%B8%AD_1_EN.jpg?_=1673880300 -->
+
 ### Cartoons
+
+<!-- https://static.tvtropes.org/pmwiki/pub/images/PopeyeTheSailorMeetsSindbadTheSailor_7347.jpg from https://tvtropes.org/pmwiki/pmwiki.php/WesternAnimation/PopeyeTheSailorMeetsSindbadTheSailor -->
 
 ### Digital Anmiation
 
