@@ -6,6 +6,27 @@ layout: doc
 
 <script setup lang="ts">
 import ImageSliderGithub from './components/imageslidergithub.vue' // the vue image slider example comparison component
+
+//HTML5 Fullscreen API
+const fullscreenEnabled = document.fullscreenEnabled; //check if fullscreen is possible
+function enterFullscreen(elementName) {
+  var element = document.getElementById(elementName);
+  if(element.requestFullscreen) {
+    element.requestFullscreen();
+  } else if(element.msRequestFullscreen) {      // for IE11 (remove June 15, 2022)
+    element.msRequestFullscreen();
+  } else if(element.webkitRequestFullscreen) {  // iOS Safari
+    element.webkitRequestFullscreen();
+  }
+}
+
+// reset button, to keep it simple this will reset all examples. This is simply because when entering fullscreen mode, dragging/moving the image out of view, and pressing esc, the image will have 'vanished' (not in view anymore) so i thought id add a reset button
+import { ref } from 'vue';
+const componentKey = ref(0);
+
+const forceRerender = () => {
+  componentKey.value += 1;
+};
 </script>
 
 # Denoise
@@ -15,7 +36,8 @@ Denoising is the process of removing noise from an image, fixing random variatio
 ![Example](../assets/images/denoise/denoise_example.jpg)
 
 The two (extreme) example images are taken from the [Natural Image Noise Dataset](https://commons.wikimedia.org/wiki/Natural_Image_Noise_Dataset) which is an open dataset of photographs with real noise from varying ISO values.
-
+  
+PS Outputs have been saved in lossy jpg so compression occured
 ### Details
 
   Creation Date: 20. Nov 2022  
@@ -45,8 +67,11 @@ The two (extreme) example images are taken from the [Natural Image Noise Dataset
 
 ## Directions ISOH3
 
-<br/>
-<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/denoise/input/NIND_directions_ISOH3.jpg' relativePathOutputFolder='denoise/output/directions' />
+<div id="directionsExample">
+<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/denoise/input/NIND_directions_ISOH3.jpg' relativePathOutputFolder='denoise/output/directions'/>
+</div>
+<button v-if="fullscreenEnabled" @click="enterFullscreen('directionsExample')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
+<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
 <br/>
 
 <details>
@@ -131,8 +156,11 @@ Rating (out of 5) 1
 
 ## Stefantiek ISOH2
 
-<br/>
-<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/denoise/input/NIND_stefantiek_ISOH2.jpg' relativePathOutputFolder='denoise/output/stefantiek' />
+<div id="stefantiekExample">
+<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/denoise/input/NIND_stefantiek_ISOH2.jpg' relativePathOutputFolder='denoise/output/stefantiek'/>
+</div>
+<button v-if="fullscreenEnabled" @click="enterFullscreen('stefantiekExample')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
+<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
 <br/>
 
 <details>
