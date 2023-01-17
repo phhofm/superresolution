@@ -45,6 +45,7 @@ const fullNamesList = [
   'SwinIR-L+GFPGANv1.4',
   'SwinIR-L',
   '4xLDSR_50steps+CodeFormer',
+  '4xLDSR_blended'
   ]
 
   const mythenFileNamesList = [
@@ -140,8 +141,8 @@ On this page I present my favorite upscaling models for a given example together
 
 ## Buddy
 
-For **photos with faces** my simplest recommendation is [SwinIR-L](https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/003_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR-L_x4_GAN.pth) together with [CodeFormer](https://github.com/sczhou/CodeFormer/releases/download/v0.1.0/codeformer.pth) in [chaiNNer](https://github.com/chaiNNer-org/chaiNNer) as shown [here](https://raw.githubusercontent.com/Phhofm/upscale/main/assets/images/favorites/screenshotBuddySwinIRLCodeFormer.png).
->LDSR, especially with higher step count, starts messing up the faces too much, even when used with face restoration models, in my opinion.
+For **photos with faces** my simplest recommendation is [SwinIR-L](https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/003_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR-L_x4_GAN.pth) together with [CodeFormer](https://github.com/sczhou/CodeFormer/releases/download/v0.1.0/codeformer.pth) in [chaiNNer](https://github.com/chaiNNer-org/chaiNNer) as shown [here](https://raw.githubusercontent.com/Phhofm/upscale/main/assets/images/favorites/screenshotBuddySwinIRLCodeFormer.png).  
+GFPGAN and CodeFormer results can also be blended, I included the 4xLDSR_blended output as an example (50% visibility each with GFPGANv1.4 and CodeFormer with 0.7 fidelity) as shown [here](https://raw.githubusercontent.com/Phhofm/upscale/main/assets/images/favorites/4xLDSR_blended.png)
 <div id="buddyExample">
 <ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/photos/buddy.jpg' relativePathOutputFolder='output/lossless/photos/buddy' :fileNamesList="buddyFileNamesList"/>
 </div>
