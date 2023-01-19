@@ -6,6 +6,9 @@ layout: doc
 
 # Changelog
 
+### 19. Jan 2023
+- Add JPEG Artifact Correction Page
+
 ### 17. Jan 2023
 - Favorites
   - Add 4xLDSR_blended output to show that GFPGAN and CodeFormer can also be used/blended together
