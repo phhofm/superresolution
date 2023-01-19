@@ -8,6 +8,7 @@ layout: doc
 
 ### 19. Jan 2023
 - Add JPEG Artifact Correction Page
+- Add Realistic Rescaler Model Outputs
 
 ### 17. Jan 2023
 - Favorites
