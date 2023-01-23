@@ -6,6 +6,17 @@ layout: doc
 
 # Changelog
 
+### 23. Jan 2023
+- Add more ai generated examples (outputs) to the multiple models page:
+  - ColorJacket
+  - Astronaut
+  - Planet
+  - Life
+  - ColorScape
+  - Door
+  - CyberpunkRebel
+  - YellowRoom
+
 ### 19. Jan 2023
 - Add JPEG Artifact Correction Page
 - Add Realistic Rescaler Model Outputs
