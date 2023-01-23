@@ -254,6 +254,206 @@ Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/main/sourc
 
 <br>
 
+#### ColorJacket
+
+<div id="colorjacketExample">
+<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/ai_generated/colorJacket.png'  relativePathOutputFolder='output/lossless/generated/colorjacket'/>
+</div>
+<button v-if="fullscreenEnabled" @click="enterFullscreen('colorjacketExample')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
+<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
+<br/>
+
+<details>
+  <summary>Details</summary>
+  <p>
+
+Input Image: 360x360 pixels
+
+Input Image: [Image](https://github.com/Phhofm/upscale/blob/main/sources/input/ai_generated/colorJacket.png)
+
+Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/main/sources/output/lossless/generated/colorjacket)
+
+  </p>
+</details>
+
+#### Astronaut
+
+<div id="astronautExample">
+<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/ai_generated/astronaut.png'  relativePathOutputFolder='output/lossless/generated/astronaut'/>
+</div>
+<button v-if="fullscreenEnabled" @click="enterFullscreen('astronautExample')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
+<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
+<br/>
+
+<details>
+  <summary>Details</summary>
+  <p>
+
+Input Image: 360x360 pixels
+
+Input Image: [Image](https://github.com/Phhofm/upscale/blob/main/sources/input/ai_generated/astronaut.png)
+
+Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/main/sources/output/lossless/generated/astronaut)
+
+  </p>
+</details>
+
+#### Planet
+
+<div id="planetExample">
+<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/ai_generated/planet.png'  relativePathOutputFolder='output/lossless/generated/planet'/>
+</div>
+<button v-if="fullscreenEnabled" @click="enterFullscreen('planetExample')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
+<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
+<br/>
+
+<details>
+  <summary>Details</summary>
+  <p>
+
+Input Image: 360x360 pixels
+
+Input Image: [Image](https://github.com/Phhofm/upscale/blob/main/sources/input/ai_generated/planet.png)
+
+Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/main/sources/output/lossless/generated/planet)
+
+  </p>
+</details>
+
+#### Life
+
+<div id="lifeExample">
+<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/ai_generated/life.png'  relativePathOutputFolder='output/lossless/generated/life'/>
+</div>
+<button v-if="fullscreenEnabled" @click="enterFullscreen('lifeExample')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
+<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
+<br/>
+
+<details>
+  <summary>Details</summary>
+  <p>
+
+Input Image: 360x360 pixels
+
+Input Image: [Image](https://github.com/Phhofm/upscale/blob/main/sources/input/ai_generated/life.png)
+
+Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/main/sources/output/lossless/generated/life)
+
+  </p>
+</details>
+
+#### ColorScape
+
+<div id="colorScapeExample">
+<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/ai_generated/colorScape.png'  relativePathOutputFolder='output/lossless/generated/colorscape'/>
+</div>
+<button v-if="fullscreenEnabled" @click="enterFullscreen('colorScapeExample')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
+<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
+<br/>
+
+<details>
+  <summary>Details</summary>
+  <p>
+
+Input Image: 360x360 pixels
+
+Input Image: [Image](https://github.com/Phhofm/upscale/blob/main/sources/input/ai_generated/colorScape.png)
+
+Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/main/sources/output/lossless/generated/colorscape)
+
+  </p>
+</details>
+
+#### Door
+
+<div id="doorExample">
+<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/ai_generated/door.png'  relativePathOutputFolder='output/lossless/generated/door'/>
+</div>
+<button v-if="fullscreenEnabled" @click="enterFullscreen('doorExample')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
+<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
+<br/>
+
+<details>
+  <summary>Details</summary>
+  <p>
+
+Input Image: 360x360 pixels
+
+Input Image: [Image](https://github.com/Phhofm/upscale/blob/main/sources/input/ai_generated/door.png)
+
+Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/main/sources/output/lossless/generated/door)
+
+  </p>
+</details>
+
+#### CyberpunkRebel
+
+<div id="cyberpunkrebelExample">
+<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/ai_generated/cyberpunkRebel.png'  relativePathOutputFolder='output/lossless/generated/cyberpunkrebel'/>
+</div>
+<button v-if="fullscreenEnabled" @click="enterFullscreen('cyberpunkrebelExample')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
+<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
+<br/>
+
+<details>
+  <summary>Details</summary>
+  <p>
+
+Input Image: 360x360 pixels
+
+Input Image: [Image](https://github.com/Phhofm/upscale/blob/main/sources/input/ai_generated/cyberpunkRebel.png)
+
+Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/main/sources/output/lossless/generated/cyberpunkrebel)
+
+  </p>
+</details>
+
+#### UnderwaterPiano
+
+
+<div id="underwaterpianoExample">
+<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/ai_generated/underwaterPiano.png'  relativePathOutputFolder='output/lossless/generated/underwaterpiano'/>
+</div>
+<button v-if="fullscreenEnabled" @click="enterFullscreen('underwaterpianoExample')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
+<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
+<br/>
+
+<details>
+  <summary>Details</summary>
+  <p>
+
+Input Image: 360x360 pixels
+
+Input Image: [Image](https://github.com/Phhofm/upscale/blob/main/sources/input/ai_generated/underwaterPiano.png)
+
+Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/main/sources/output/lossless/generated/underwaterpiano)
+
+  </p>
+</details>
+
+
+#### YellowRoom
+
+<div id="yellowroomExample">
+<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/ai_generated/yellowRoom.png'  relativePathOutputFolder='output/lossless/generated/yellowroom'/>
+</div>
+<button v-if="fullscreenEnabled" @click="enterFullscreen('yellowroomExample')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
+<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
+<br/>
+
+<details>
+  <summary>Details</summary>
+  <p>
+
+Input Image: 360x360 pixels
+
+Input Image: [Image](https://github.com/Phhofm/upscale/blob/main/sources/input/ai_generated/yellowRoom.png)
+
+Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/main/sources/output/lossless/generated/yellowroom)
+
+  </p>
+</details>
+
 #### Livingroom
 
 <div id="livingroomExample">
