@@ -400,12 +400,12 @@ Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/main/sourc
 
 ## Denoising
 
-My personal favorite would be **SCUNet** which can be used for example with [replicate](https://replicate.com/cszn/scunet). With chaiNNer you could use the **SwinIR denoise models**. The examples are in the [denoise page](./denoise.md).
+My personal favorite would be **SCUNet** which can be used for example with [replicate](https://replicate.com/cszn/scunet). As an alternative with chaiNNer you could use the **SwinIR denoise models**. The examples are in the [denoise page](./denoise.md).
 
 ## Deblurring
 
-My personal favorite would be **MAXIM** which can be used for example with [replicate](https://replicate.com/google-research/maxim). With chaiNNer you could use the [Restormer Motion Deblurring Model](https://drive.google.com/drive/folders/1czMyfRTQDX3j3ErByYeZ1PM4GVLbJeGK). The examples are in the [deblurring page](./deblurring.md).
+My personal favorite would be **MAXIM** which can be used for example with [replicate](https://replicate.com/google-research/maxim). As an alternative with chaiNNer you could try out the **1x_ReFocus_V3_140000_G** model. The examples are in the [deblurring page](./deblurring.md).
 
 ## JPEG Artifact Corretction
 
-This one is harder, I think my personal favorite currently would be **FBCNN** which can be used for example with this [huggingface space](https://huggingface.co/spaces/danielsapit/JPEG_Artifacts_Removal). With chaiNNer you could for example use one of the **1x_JPEG models**, one of the **SwinIR colorCAR** models, or even the **Swin2SR_CompressedSR** upscale model and then downscale the output back to its original size. The examples are in the [artifacts page](./artifacts.md).
+This one is harder, I think my personal favorite currently would be **FBCNN** which can be used for example with this [huggingface space](https://huggingface.co/spaces/danielsapit/JPEG_Artifacts_Removal). As an alternative with chaiNNer you could for example use one of the **1x_JPEG models**, one of the **SwinIR colorCAR** models, or even the **Swin2SR_CompressedSR** upscale model and then downscale the output back to its original size. The examples are in the [artifacts page](./artifacts.md).
