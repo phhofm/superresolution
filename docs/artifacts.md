@@ -35,7 +35,7 @@ Correction of visual artifacts caused by JPEG compression, these artifacts are u
 
 ![Example](../assets/images/artifacts/tomandjerry.png)
 
-The image inputs are taken from the [Huggingface FBCNN](https://commons.wikimedia.org/wiki/Natural_Image_Noise_Dataset) page, from the example images.
+The image inputs are taken from the [Huggingface FBCNN](https://huggingface.co/spaces/danielsapit/JPEG_Artifacts_Removal) page, from the example images.
   
 ## Tom And Jerry
 

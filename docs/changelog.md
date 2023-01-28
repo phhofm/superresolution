@@ -6,6 +6,15 @@ layout: doc
 
 # Changelog
 
+### 28. Jan 2023
+- Favorites Page
+  - add RealisticRescaler to landscape favs
+  - Add AI generated recommendation (life and colorjacket)
+  - Add Subpage recommendations
+    - deblur
+    - denoise
+    - jpeg artifact correction
+
 ### 23. Jan 2023
 - Add more ai generated examples (outputs) to the multiple models page:
   - ColorJacket
