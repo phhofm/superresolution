@@ -64,6 +64,7 @@ const fullNamesList = [
   'RealESRGAN_x4_rudalle',
   'Real_HAT_GAN_SRx4',
   '4xLDSR_200steps',
+  '4x_RealisticRescaler_100000_G',
   ]
 
   const fateFileNamesList = [
@@ -110,6 +111,78 @@ const fullNamesList = [
   '4x-AnimeSharp',
   '4x_NMKD-UltraYandere_300k',
   //'4x_NMKD-YandereNeo-F64B2_200k'
+  ]
+
+    const lifeFileNamesList = [
+  '003_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR-L_x4_GAN',
+  '4x-UltraMix_Restore',
+  //'4x-UltraMix_Balanced',
+  '4x-UltraSharp',
+  //'4xRealSR_DF2K_JPEG',
+  '4x_foolhardy_Remacri',
+  '4x_NMKD-Siax_200k',
+  'BSRGAN',
+  //'4x_NMKD-Yandere4_120000_G',
+  '4xLDSR_200steps',
+  //'realesr-general-wdn-x4v3',
+  //'RealESRGAN_x4plus',
+  //'RealESRGAN_x4_rudalle',
+  //'Real_HAT_GAN_SRx4',
+  //'Swin2SR_RealworldSR_X4_64_BSRGAN_PSNR',
+  //'4x_BooruGan_650k',
+  //'RealESRGAN_x4plus_anime_6B',
+  //'4x-AnimeSharp',
+  //'4x_NMKD-UltraYandere_300k',
+  //'4x_NMKD-YandereNeo-F64B2_200k',
+  '4x_RealisticRescaler_100000_G',
+  '4x-UniScaleV2_Moderate',
+  '4xZZines',
+  ]
+
+      const colorJacketFileNamesList = [
+  '003_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR-L_x4_GAN',
+  '4x-UltraMix_Restore',
+  //'4x-UltraMix_Balanced',
+  '4x-UltraSharp',
+  //'4xRealSR_DF2K_JPEG',
+  '4x_foolhardy_Remacri',
+  //'4x_NMKD-Siax_200k',
+//  'BSRGAN',
+  //'4x_NMKD-Yandere4_120000_G',
+  //'4xLDSR_200steps',
+  '4xLDSR_50steps',
+  //'4xLDSR_100steps',
+  //'4xLDSR_400steps',
+  //'realesr-general-wdn-x4v3',
+  //'RealESRGAN_x4plus',
+  //'RealESRGAN_x4_rudalle',
+  //'Real_HAT_GAN_SRx4',
+  //'Swin2SR_RealworldSR_X4_64_BSRGAN_PSNR',
+  //'4x_BooruGan_650k',
+  'RealESRGAN_x4plus_anime_6B',
+  //'4x-AnimeSharp',
+  //'4x_NMKD-UltraYandere_300k',
+  //'4x_NMKD-YandereNeo-F64B2_200k',
+  //'4x_RealisticRescaler_100000_G',
+  '4x-UniScaleV2_Moderate',
+  '4xZZines',
+  '4x-VolArt',
+  '4xFSDedither_Manga',
+  '4xFSMangaV2',
+//'4xFalcoon',
+  '4xFatalPixels',
+  '4xFatalityV1',
+  '4xFatalityV2',
+  //'4x_BigFace_v3',
+    //'4x_BigFace_v3_Blend',
+      '4x_BigFace_v3_Clear',
+      '4x_Fatal_twerpilation',
+      '4x_HDCube2_250k',
+      '4x_Unholy_FArt',
+      //'4x_fatal_Anime_360k',
+      //'4x_fatal_Faces_FS_MKI',
+
+
   ]
 
 //HTML5 Fullscreen API
@@ -263,3 +336,76 @@ Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/main/sourc
 
   </p>
 </details>
+
+
+## Life
+
+For AI generated images, my simplest recommendation is [Remacri]() with [chaiNNer](https://github.com/chaiNNer-org/chaiNNer).
+
+<div id="lifeSelectionExample">
+<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/ai_generated/life.png' relativePathOutputFolder='output/lossless/generated/life' :fileNamesList="lifeFileNamesList" />
+</div>
+<button v-if="fullscreenEnabled" @click="enterFullscreen('lifeSelectionExample')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
+<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
+<br/>
+
+<details>
+  <summary>Details</summary>
+  <p>
+
+Input Image: 360x360 pixels
+
+Scaling Factor: 4
+
+Output Image: 1440x1440 pixels
+
+Type: AI Generated Image (Midjourney)
+
+Input Image: [Image](https://github.com/Phhofm/upscale/blob/main/sources/input/ai_generated/life.png)
+
+Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/main/sources/output/lossless/generated/life)
+
+  </p>
+</details>
+
+## ColorJacket
+
+Another 'more **artsy**' AI generated image, my **above recommendation still stands** and stems through looking through my ai generated examples from the multiple models page (not just this one or the previous example). I simply wanted to show that depending on the generated image, you might also want to **try one of these models instead**. For example, I had used the RealESRGAN_x4plus_anime_6B model in the past to upscale generated logos.
+
+<div id="colorJacketSelectionExample">
+<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/ai_generated/colorJacket.png' relativePathOutputFolder='output/lossless/generated/colorjacket' :fileNamesList="colorJacketFileNamesList" />
+</div>
+<button v-if="fullscreenEnabled" @click="enterFullscreen('colorJacketSelectionExample')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
+<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
+<br/>
+
+<details>
+  <summary>Details</summary>
+  <p>
+
+Input Image: 360x360 pixels
+
+Scaling Factor: 4
+
+Output Image: 1440x1440 pixels
+
+Type: AI Generated Image (Midjourney)
+
+Input Image: [Image](https://github.com/Phhofm/upscale/blob/main/sources/input/ai_generated/colorJacket.png)
+
+Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/main/sources/output/lossless/generated/colorjacket)
+
+  </p>
+</details>
+
+## Denoising
+
+My personal favorite would be **SCUNet** which can be used for example with [replicate](https://replicate.com/cszn/scunet). With chaiNNer you could use the **SwinIR denoise models**. The examples are in the [denoise page](./denoise.md).
+
+## Deblurring
+
+My personal favorite would be **MAXIM** which can be used for example with [replicate](https://replicate.com/google-research/maxim). With chaiNNer you could use the [Restormer Motion Deblurring Model](https://drive.google.com/drive/folders/1czMyfRTQDX3j3ErByYeZ1PM4GVLbJeGK). The examples are in the [deblurring page](./deblurring.md).
+
+## JPEG Artifact Corretction
+
+This one is harder, I think my personal favorite currently would be **FBCNN** which can be used for example with this [huggingface space](https://huggingface.co/spaces/danielsapit/JPEG_Artifacts_Removal). With chaiNNer you could for example use one of the **1x_JPEG models**, one of the **SwinIR colorCAR** models, or even the **Swin2SR_CompressedSR** upscale model and then downscale the output back to its original size. The examples are in the [artifacts page](./artifacts.md).
