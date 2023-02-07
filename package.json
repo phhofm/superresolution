@@ -11,6 +11,7 @@
   "author": "Philip Hofmann",
   "license": "",
   "dependencies": {
+    "element-plus": "^2.2.29",
     "readdir-plus": "^1.1.1",
     "vitepress": "^1.0.0-alpha.27",
     "vue": "^3.2.41",
