@@ -1,6 +1,6 @@
 ---
-title: JPEG Artifact Correction
-description: Visual Comparison of compression artifact removal models
+title: Colorization
+description: Visual Comparison of colorization models
 layout: doc
 ---
 
