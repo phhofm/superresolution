@@ -59,10 +59,10 @@ Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/main/sourc
 
 ## Gate 2
 
-<div id="tomandjerryExample">
+<div id="gate2Example">
 <ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/output/lossless/artifactsremoval/gate2/input.jpeg' relativePathOutputFolder='output/lossless/artifactsremoval/gate2'/>
 </div>
-<button v-if="fullscreenEnabled" @click="enterFullscreen('tomandjerryExample')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
+<button v-if="fullscreenEnabled" @click="enterFullscreen('gate2Example')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
 <button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
 <br/>
 
