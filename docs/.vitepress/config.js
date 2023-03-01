@@ -114,6 +114,10 @@ export default {
             link: "/colorization",
           },
           {
+            text: "Interpolated Models",
+            link: "/interpolation",
+          },
+          {
             text: "Models Used",
             link: "/modelsused",
           },
@@ -236,6 +240,10 @@ export default {
           {
             text: "Colorization",
             link: "/colorization",
+          },
+          {
+            text: "Interpolated Models",
+            link: "/interpolation",
           },
           {
             text: "Models Used",
