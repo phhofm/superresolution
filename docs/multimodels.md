@@ -32,6 +32,8 @@ const forceRerender = () => {
 
 # Multiple Models
 
+If you want the filterable version of this page where you can type and search for specific models then head on to the [filterable models page](./multimodelsfilterable.md), be aware that it takes a while to load so you need to be patient.
+
 This page contains the full examples of images that have been upscaled with multiple different models for you to visually compare the outputs of these models against each other. If you would like to see a smaller selection, head on over to my [favorites page](./favorites.md).
 
 Here I demonstrate how I was comparing different model outputs with each other, it features my oldest example which included only around 20 universal upscaling models. The examples on this page are newer and now contain some 300+ outputs in comparison.

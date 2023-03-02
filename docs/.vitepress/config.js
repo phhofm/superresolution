@@ -110,6 +110,14 @@ export default {
             link: "/artifacts",
           },
           {
+            text: "Colorization",
+            link: "/colorization",
+          },
+          {
+            text: "Interpolated Models",
+            link: "/interpolation",
+          },
+          {
             text: "Models Used",
             link: "/modelsused",
           },
@@ -228,6 +236,14 @@ export default {
           {
             text: "JPEG Artifact Correction",
             link: "/artifacts",
+          },
+          {
+            text: "Colorization",
+            link: "/colorization",
+          },
+          {
+            text: "Interpolated Models",
+            link: "/interpolation",
           },
           {
             text: "Models Used",
