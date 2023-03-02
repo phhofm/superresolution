@@ -6,21 +6,23 @@ layout: doc
 
 # Changelog
 
-### 1. März 2023
+### 2. März 2023
 
 - Add link to filterable version (can search for models in the example outputs like 'Remacri' etc) to the multiple models page
 - Add Colorization Page
   - BigColor
   - DeOldify Stable, Artistic and MyHeritage versions
 - Add Interpolated Models Page
-  - Provide some 8 interpolated models that were okay-is enough as downloads
+  - Provide some 8 interpolated models as downloads
+  - Add fate interpolated (average color correction used) example (92 lossless webp images, 193.8MB)
 
 - Reduce Repo Size - it is was 69.8GB on disk -> now its GB. This website contains currently 15'629 images.
-  - Convert/Compress 9533 lossless png outputs to lossless webp with compression method 6 (WEBP features the best lossless compression currently with wide browser support. JPEG XL would have been even better, but no browser support. AVIF is extremely bad in regards to lossless compression. OxiPNG also produced bigger filesizes than lossless WEBP.) -> from 23.7 GB to 
-  - The .git folder(/history) itself is 41.9GB which is almost 70% of the whole repo size (primarily caused by those binary blobs because no diffing supported on media files)
-    - Used BFG Repo-Cleaner to delete image media files from the history. Brought the .git folder size down to GB
+  - Convert/Compress 9533 lossless png outputs to lossless webp with compression method 6 (WEBP features the best lossless compression currently with wide browser support. JPEG XL would have been even better, but no browser support. AVIF is extremely bad in regards to lossless compression. OxiPNG also produced bigger filesizes than lossless WEBP.) -> went from 23.7 GB (lossless pngs) to 16.2 GB (compressed to lossless webp)
+  <!--   - The .git folder(/history) itself was 42.8GB which makes 70% of the whole repo size (primarily caused by those binary blobs because no diffing supported on media files) -->
+    <!--       - Used BFG Repo-Cleaner to delete image media files (and the generated json files) from the commit history. Brought the .git folder size down to X GB -->
 
 ### 28. Jan 2023
+
 - Favorites Page
   - add RealisticRescaler to landscape favs
   - Add AI generated recommendation (life and colorjacket)
@@ -30,6 +32,7 @@ layout: doc
     - jpeg artifact correction
 
 ### 23. Jan 2023
+
 - Add more ai generated examples (outputs) to the multiple models page:
   - ColorJacket
   - Astronaut
@@ -41,10 +44,12 @@ layout: doc
   - YellowRoom
 
 ### 19. Jan 2023
+
 - Add JPEG Artifact Correction Page
 - Add Realistic Rescaler Model Outputs
 
 ### 17. Jan 2023
+
 - Favorites
   - Add 4xLDSR_blended output to show that GFPGAN and CodeFormer can also be used/blended together
 - Multiple Models
