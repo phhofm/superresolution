@@ -40,7 +40,7 @@ The image inputs are taken from the [Huggingface FBCNN](https://huggingface.co/s
 ## Tom And Jerry
 
 <div id="tomandjerryExample">
-<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/output/lossless/artifactsremoval/tomandjerry/input.jpeg' relativePathOutputFolder='output/lossless/artifactsremoval/tomandjerry'/>
+<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/output/lossless/artifactsremoval/tomandjerry/input.webp' relativePathOutputFolder='output/lossless/artifactsremoval/tomandjerry'/>
 </div>
 <button v-if="fullscreenEnabled" @click="enterFullscreen('tomandjerryExample')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
 <button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
@@ -50,7 +50,7 @@ The image inputs are taken from the [Huggingface FBCNN](https://huggingface.co/s
   <summary>Details</summary>
   <p>
 
-Input Image: [Image](https://github.com/Phhofm/upscale/blob/main/sources/output/lossless/artifactsremoval/tomandjerry/input.jpeg)
+Input Image: [Image](https://github.com/Phhofm/upscale/blob/main/sources/output/lossless/artifactsremoval/tomandjerry/input.webp)
 
 Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/main/sources/output/lossless/artifactsremoval/tomandjerry)
 
@@ -60,7 +60,7 @@ Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/main/sourc
 ## Gate 2
 
 <div id="gate2Example">
-<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/output/lossless/artifactsremoval/gate2/input.jpeg' relativePathOutputFolder='output/lossless/artifactsremoval/gate2'/>
+<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/output/lossless/artifactsremoval/gate2/input.webp' relativePathOutputFolder='output/lossless/artifactsremoval/gate2'/>
 </div>
 <button v-if="fullscreenEnabled" @click="enterFullscreen('gate2Example')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
 <button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
@@ -70,7 +70,7 @@ Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/main/sourc
   <summary>Details</summary>
   <p>
 
-Input Image: [Image](https://github.com/Phhofm/upscale/blob/main/sources/output/lossless/artifactsremoval/gate2/input.jpeg)
+Input Image: [Image](https://github.com/Phhofm/upscale/blob/main/sources/output/lossless/artifactsremoval/gate2/input.webp)
 
 Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/main/sources/output/lossless/artifactsremoval/gate2)
 
