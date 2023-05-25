@@ -118,6 +118,10 @@ export default {
             link: "/interpolation",
           },
           {
+            text: "Self Trained Models",
+            link: "/selftrained",
+          },
+          {
             text: "Models Used",
             link: "/modelsused",
           },
@@ -244,6 +248,10 @@ export default {
           {
             text: "Interpolated Models",
             link: "/interpolation",
+          },
+          {
+            text: "Self Trained Models",
+            link: "/selftrained",
           },
           {
             text: "Models Used",

@@ -8,7 +8,7 @@ import Os from 'os'
 let models = new Set();
 
 // Add examples here that use all the models. I use specific examples because the input image names etc would show up as models, specifically "chilling","couple","family", "child__4x_NMKDSuperscale","grossermythen__4x_NMKDSuperscale","landscape__4x_NMKDSuperscale","lightning__4x_NMKDSuperscale","livingroom__4x_NMKDSuperscale","painting__4x_NMKDSuperscale", and so forth, generated example with no examples given
-let examples = ['output/lossless/generated/life', 'output/lossless/artifactsremoval/gate2', 'output/lossless/interpolated/fate', 'deblur/GOPRO_Large/test/GOPR0384_11_00/output', 'denoise/output/directions', 'facerestoration/buddy', 'colorization/couple']
+let examples = ['output/lossless/selftrained/all/dearalice', 'output/lossless/generated/life', 'output/lossless/artifactsremoval/gate2', 'output/lossless/interpolated/fate', 'deblur/GOPRO_Large/test/GOPR0384_11_00/output', 'denoise/output/directions', 'facerestoration/buddy', 'colorization/couple']
 
 /*
   let modelNames = data.map(file => file.basename)

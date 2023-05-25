@@ -6,6 +6,10 @@ layout: doc
 
 # Changelog
 
+### 25. Mai 2023
+ - Add selftrained models page together with 4 examples which feature models I trained or interpolated (27 outputs) plus all current models (686 outputs) I have, like the official OmniSR paper models that came out just last month (this page alone adds 8.5GB of new output images to this repo. The clone of the master branch takes up 79.3 GB of local disk space at this moment so its a big repo in size. Which reminds me I should convert the new png outputs to lossless webp later. And maybe I could clean up the versioning/history of all these image binary files since the .git folder is the biggest space consuming folder and takes up 50 GB currently).
+ - Update Models Used Page
+
 ### 2. März 2023
 
 - Add link to filterable version (can search for models in the example outputs like 'Remacri' etc) to the multiple models page
